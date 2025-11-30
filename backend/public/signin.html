@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+</head>
+<body>
+        <h1 style="text-align: center;color: brown;">User SignIn</h1>
+           <form id="signin">
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email"style="margin-bottom:5px ;"><br>
+            <label for="password">PassWord:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your Password"style="margin-bottom:5px ;"><br>
+            <input type="submit" value="Submit" style=" margin-top:10px">
+            <input type="button" value="Signup" onclick="window.location='signup.html'" style="margin-left:5% ;margin-top:10px">
+            <input type="reset" value="Reset"  style="margin-left:5% ;margin-top: 10px;">
+            <input type="submit" value="forgetPassword" onclick="window.location='forget.html'" style="margin-left:5% ;margin-top:10px">
+        </form>
+
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="./signin.js"></script>
+</body>
+</html>

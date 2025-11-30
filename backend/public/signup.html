@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_Registration_Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: brown;">User Registration Form</h1>
+    <form  style="margin-left:40% ;" id="formData">
+        <label for="fname">First_Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" style="margin-bottom:5px ;"><br>
+        <label for="lname">Last_Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" style="margin-bottom:5px ;"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email"style="margin-bottom:5px ;"><br>
+        <label for="password">PassWord:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your Password"style="margin-bottom:5px ;"><br>
+        <input type="submit" value="Submit" style=" margin-top:10px">
+        <input type="button" value="Login" onclick="window.location='signin.html'" style="margin-left:5% ;margin-top:10px">
+        <input type="reset" value="Reset"  style="margin-left:5% ;margin-top: 10px;">
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./signup.js"></script>
+</body>
+</html>
